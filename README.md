@@ -11,7 +11,8 @@ sudo apt update && sudo apt upgrade
 2. Install the following packages as pre-requisits for the following steps.
 
 ```bash
-sudo apt install -y apt-transport-https ca-certificates curl gnupg-agent software-properties-common libffi-dev libssl-dev 
+sudo apt install -y apt-transport-https ca-certificates curl gnupg-agent \
+  software-properties-common libffi-dev libssl-dev 
 ```
 
 3. Install python 3.8 using the ppa.

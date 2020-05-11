@@ -4,8 +4,13 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+twine = "==3.1.1"
+flake8 = "==3.7.9"
+black = "==19.10b0"
+pre-commit = "==2.1.1"
 
 [packages]
+wakeonlan = "*"
 
 [requires]
 python_version = "3.8"

@@ -41,3 +41,17 @@ sudo pip3 install docker-compose
 ```
 
 6. 
+
+
+## Start the development server
+
+```bash
+export FLASK_APP=./green_gate/api/__init__.py && flask run
+```
+
+
+## Start the production server
+
+```bash
+gunicorn --bind 0.0.0.0:5000 green_gate.api.server:app
+```

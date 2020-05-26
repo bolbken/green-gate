@@ -1,0 +1,10 @@
+[
+    {
+        "address": {
+            "mac": "FF-FF-FF-FF-FF",
+            "ipv4": "192.168.1.21"
+        },
+        "hostname": "machine",
+        "alias": "desktop"
+    }
+]

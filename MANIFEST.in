@@ -3,6 +3,7 @@ include *.md
 
 
 # Include all files inside the green_gate folder
-recursive-include green_gate *include versioneer.py
+recursive-include green_gate *
+include versioneer.py
 include green_gate/_version.py
 include versioneer.py

@@ -1,6 +1,7 @@
 import json
 
 
+
 def get_hosts(path: str = "./hosts.json") -> dict:
     with open(path, "r") as hosts_file:
         return json.load(hosts_file)
